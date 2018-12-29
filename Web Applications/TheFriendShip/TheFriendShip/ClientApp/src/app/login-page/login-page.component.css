@@ -1,0 +1,22 @@
+.login-card {
+  margin-top: 50px;
+}
+
+.title {
+  padding-top: 30px
+}
+
+.main-div {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-row {
+  padding: 20px;
+}
+
+.loginInput {
+  margin-right: 8px;
+}

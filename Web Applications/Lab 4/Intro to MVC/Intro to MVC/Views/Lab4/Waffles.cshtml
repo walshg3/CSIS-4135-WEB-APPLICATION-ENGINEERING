@@ -1,0 +1,44 @@
+﻿@model System.DateTime
+@{
+    ViewData["Title"] = "Waffles";
+    DateTime now = DateTime.Now;
+    DateTime endOfYear = new DateTime(now.Year, 12, 31);
+    double daysLeft = Math.Ceiling((endOfYear - now).TotalDays);
+    int id = 0;
+    try
+    {
+        id = Int32.Parse(Url.Action().Split("/").Last());
+    }
+    catch { System.Diagnostics.Debug.WriteLine("Casting not possible (Most likely due to no ending)"); }
+}
+
+<div class="jumbotron p-3 mb-2 text-white sticky-top">
+    <h2>Generate Waffles</h2>
+</div>
+    <main class="p-3">
+
+
+        <div class="buttons">
+            <div class="inline-block">
+                <a class="btn btn-success" role="button" href="~/Lab4/Waffles/1">1</a>
+                <a class="btn btn-success" role="button" href="~/Lab4/Waffles/2">2</a>
+                <a class="btn btn-success" role="button" href="~/Lab4/Waffles/3">3</a>
+                <a class="btn btn-success" role="button" href="~/Lab4/Waffles/4">4</a>
+                <a class="btn btn-success" role="button" href="~/Lab4/Waffles/5">5</a>
+            </div>
+        </div>
+
+
+
+        @for (int i = 0; i < id; i++)
+        {
+            <div class="panel border panel-default">
+                <div class="panel-body">
+                    @Html.Raw(System.Web.HttpUtility.HtmlDecode(WaffleGenerator.WaffleEngine.Html(1, true, false)))
+                </div>
+            </div>
+
+        }
+
+
+    </main>

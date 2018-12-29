@@ -1,0 +1,91 @@
+﻿@model IEnumerable<Lab06.Models.Review>
+
+@{
+    ViewData["Title"] = "Index";
+    var movies = ViewData["Movies"];
+}
+
+<h2>Index</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                <a class="headingsort" href="/Reviews?sortby=reviewer&amp;direction=asc">
+                    @Html.DisplayNameFor(model => model.Reviewer)
+                    <i class="glyphicon glyphicon-triangle-top"></i>
+                </a>
+                
+            </th>
+            <th>
+                Comment
+            </th>
+            <th>
+                <a class="headingsort" href="/Reviews?sortby=movie&amp;direction=asc">
+                    Movie Title
+                    <i class="glyphicon glyphicon-triangle-top"></i>
+                </a>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Reviewer)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserReview)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MovieTitle)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+<script>
+    function getURLVar(variable) { //utilized https://css-tricks.com/snippets/javascript/get-url-variables/ and altered a bit for better understanding
+        var url = window.location.search.substring(1);
+        var vars = url.split("&");
+        for (var i = 0; i < vars.length; i++) {
+            var pair = vars[i].split("=");
+            if (pair[0] == variable) { return pair[1]; }
+        }
+        return (false);
+    }
+
+    try {
+        var direction = getURLVar("direction");
+    } catch {
+        var direction = "asc"
+        console.log("Direction URL var not availible");
+    }
+    try {
+        var sorting = getURLVar("sortby");
+    } catch {
+        var sorting = "reviewer";
+        console.log("Sorting URL var not availible");
+    }
+    
+    var headings = document.querySelectorAll('.headingsort');
+    console.log(direction + "   " + sorting);
+
+    if (direction == "asc") {
+        if (sorting == "reviewer") {
+            headings[0].children[0].className = "glyphicon glyphicon-triangle-bottom";
+            headings[0].href = "/Reviews?sortby=reviewer&direction=desc";
+        } else { //(sorting == "movie")
+            headings[1].children[0].className = "glyphicon glyphicon-triangle-bottom";
+            headings[1].href = "/Reviews?sortby=movie&direction=desc";
+        }
+    } else if (direction == "desc") {
+        if (sorting == "reviewer") {
+            headings[0].children[0].className = "glyphicon glyphicon-triangle-top";
+            headings[0].href = "/Reviews?sortby=reviewer&direction=asc";
+        } else { //(sorting == "movie")
+            headings[1].children[0].className = "glyphicon glyphicon-triangle-top";
+            headings[1].href = "/Reviews?sortby=movie&direction=asc";
+        }
+    }
+</script>

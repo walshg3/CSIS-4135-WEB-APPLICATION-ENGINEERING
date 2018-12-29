@@ -1,0 +1,72 @@
+﻿@model Lab06.Models.Movie
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h3>Add Movie</h3>
+<hr />
+<div class="imdb">
+    <form class="form-inline" method="get" action="/Movies/OMDBCreate">
+        <div class="form-group">
+            <input type="text" name="movieName" class="form-control col-sm-6" placeholder="Title">
+        </div>
+        <input type="submit" value="Lookup on IMDB" class="btn btn-info">
+    </form>
+</div>
+<form asp-action="Edit">
+    <div class="form-horizontal">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <input type="hidden" asp-for="ID" />
+        <div class="form-group">
+            <label asp-for="Title" class="col-md-2 control-label"></label>
+            <div class="col-md-3">
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="ReleaseDate" class="col-md-2 control-label"></label>
+            <div class="col-md-3">
+                <input asp-for="ReleaseDate" class="form-control" />
+                <span asp-validation-for="ReleaseDate" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Genre" class="col-md-2 control-label"></label>
+            <div class="col-md-3">
+                <input asp-for="Genre" class="form-control" />
+                <span asp-validation-for="Genre" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Price" class="col-md-2 control-label"></label>
+            <div class="col-md-3">
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Rating" class="col-md-2 control-label"></label>
+            <div class="col-md-3">
+                <select asp-for="Rating" class="form-control" asp-items="@(new SelectList(Enum.GetValues(typeof(Ratings))))">
+                    <option disabled selected>Select Rating</option>
+                </select>
+                <span asp-validation-for="Rating" class="text-danger"></span>
+            </div>
+        </div>
+        <input type="hidden" asp-for="PosterURL" id="PosterURL" name="PosterURL" />
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+    </div>
+</form>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+} 

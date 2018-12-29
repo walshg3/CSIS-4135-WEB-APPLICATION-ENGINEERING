@@ -1,0 +1,32 @@
+C:\code\CSIS-Classes\Web Applications\Lab 4\Intro to MVC\Intro to MVC\bin\Release\netcoreapp2.1\Intro to MVC.deps.json
+C:\code\CSIS-Classes\Web Applications\Lab 4\Intro to MVC\Intro to MVC\bin\Release\netcoreapp2.1\Intro to MVC.runtimeconfig.json
+C:\code\CSIS-Classes\Web Applications\Lab 4\Intro to MVC\Intro to MVC\bin\Release\netcoreapp2.1\Intro to MVC.runtimeconfig.dev.json
+C:\code\CSIS-Classes\Web Applications\Lab 4\Intro to MVC\Intro to MVC\bin\Release\netcoreapp2.1\Intro to MVC.dll
+C:\code\CSIS-Classes\Web Applications\Lab 4\Intro to MVC\Intro to MVC\bin\Release\netcoreapp2.1\Intro to MVC.pdb
+C:\code\CSIS-Classes\Web Applications\Lab 4\Intro to MVC\Intro to MVC\bin\Release\netcoreapp2.1\Intro to MVC.Views.dll
+C:\code\CSIS-Classes\Web Applications\Lab 4\Intro to MVC\Intro to MVC\bin\Release\netcoreapp2.1\Intro to MVC.Views.pdb
+C:\code\CSIS-Classes\Web Applications\Lab 4\Intro to MVC\Intro to MVC\obj\Release\netcoreapp2.1\Intro to MVC.csproj.CoreCompileInputs.cache
+C:\code\CSIS-Classes\Web Applications\Lab 4\Intro to MVC\Intro to MVC\obj\Release\netcoreapp2.1\Intro to MVC.RazorAssemblyInfo.cache
+C:\code\CSIS-Classes\Web Applications\Lab 4\Intro to MVC\Intro to MVC\obj\Release\netcoreapp2.1\Intro to MVC.RazorAssemblyInfo.cs
+C:\code\CSIS-Classes\Web Applications\Lab 4\Intro to MVC\Intro to MVC\obj\Release\netcoreapp2.1\Intro to MVC.AssemblyInfoInputs.cache
+C:\code\CSIS-Classes\Web Applications\Lab 4\Intro to MVC\Intro to MVC\obj\Release\netcoreapp2.1\Intro to MVC.AssemblyInfo.cs
+C:\code\CSIS-Classes\Web Applications\Lab 4\Intro to MVC\Intro to MVC\obj\Release\netcoreapp2.1\Intro to MVC.TagHelpers.input.cache
+C:\code\CSIS-Classes\Web Applications\Lab 4\Intro to MVC\Intro to MVC\obj\Release\netcoreapp2.1\Intro to MVC.TagHelpers.output.cache
+C:\code\CSIS-Classes\Web Applications\Lab 4\Intro to MVC\Intro to MVC\obj\Release\netcoreapp2.1\Intro to MVC.RazorCoreGenerate.cache
+C:\code\CSIS-Classes\Web Applications\Lab 4\Intro to MVC\Intro to MVC\obj\Release\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\code\CSIS-Classes\Web Applications\Lab 4\Intro to MVC\Intro to MVC\obj\Release\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\code\CSIS-Classes\Web Applications\Lab 4\Intro to MVC\Intro to MVC\obj\Release\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\code\CSIS-Classes\Web Applications\Lab 4\Intro to MVC\Intro to MVC\obj\Release\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\code\CSIS-Classes\Web Applications\Lab 4\Intro to MVC\Intro to MVC\obj\Release\netcoreapp2.1\Razor\Views\Lab4\Index.g.cshtml.cs
+C:\code\CSIS-Classes\Web Applications\Lab 4\Intro to MVC\Intro to MVC\obj\Release\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\code\CSIS-Classes\Web Applications\Lab 4\Intro to MVC\Intro to MVC\obj\Release\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\code\CSIS-Classes\Web Applications\Lab 4\Intro to MVC\Intro to MVC\obj\Release\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\code\CSIS-Classes\Web Applications\Lab 4\Intro to MVC\Intro to MVC\obj\Release\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\code\CSIS-Classes\Web Applications\Lab 4\Intro to MVC\Intro to MVC\obj\Release\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\code\CSIS-Classes\Web Applications\Lab 4\Intro to MVC\Intro to MVC\obj\Release\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\code\CSIS-Classes\Web Applications\Lab 4\Intro to MVC\Intro to MVC\obj\Release\netcoreapp2.1\Intro to MVC.RazorTargetAssemblyInfo.cache
+C:\code\CSIS-Classes\Web Applications\Lab 4\Intro to MVC\Intro to MVC\obj\Release\netcoreapp2.1\Intro to MVC.RazorTargetAssemblyInfo.cs
+C:\code\CSIS-Classes\Web Applications\Lab 4\Intro to MVC\Intro to MVC\obj\Release\netcoreapp2.1\Intro to MVC.Views.pdb
+C:\code\CSIS-Classes\Web Applications\Lab 4\Intro to MVC\Intro to MVC\obj\Release\netcoreapp2.1\Intro to MVC.dll
+C:\code\CSIS-Classes\Web Applications\Lab 4\Intro to MVC\Intro to MVC\obj\Release\netcoreapp2.1\Intro to MVC.pdb
+C:\code\CSIS-Classes\Web Applications\Lab 4\Intro to MVC\Intro to MVC\obj\Release\netcoreapp2.1\Intro to MVC.csproj.CopyComplete

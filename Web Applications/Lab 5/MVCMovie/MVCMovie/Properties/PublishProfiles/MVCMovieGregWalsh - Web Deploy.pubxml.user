@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA8Ox3g0crnku4YCQgmKIgTwAAAAACAAAAAAADZgAAwAAAABAAAAAVoTxI8XyRGsylI4TRKRGfAAAAAASAAACgAAAAEAAAAIvIhwoMMr3K065gz61J24aAAAAA0C3P7Y5CjmjnFo9wgXM9fNQ/KztDkmFN0qsKiru73dlDYzG1E4jhPYUti3SGj0tnYZxcMFmDEh2dCUYS7wAcq3rhWWoOz2AjrESmQLMACdyZBYaWCHG/+Uiibz+H0lWb/tgPV0foN/P8DKcr0ZePG+639DugSRDTCFa3zrgQMXQUAAAAo9apnxgEuu897Ilz+dXACbbBMPU=</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="MVCMovieContext">
+      <Value>Data Source=tcp:mvcmoviegregwalshdbserver.database.windows.net,1433%3bInitial Catalog=MVCMovieGregWalsh_db%3bUser Id=walshg3%40mvcmoviegregwalshdbserver%3bPassword=Cads4bb4</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

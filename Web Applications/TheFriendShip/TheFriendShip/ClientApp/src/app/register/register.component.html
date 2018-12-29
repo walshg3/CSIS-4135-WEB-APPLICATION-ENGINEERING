@@ -1,0 +1,77 @@
+<div class="main-div">
+  <mat-card class="login-card">
+    <form class="login-form" (submit)="submit(registerForm)" #registerForm="ngForm">
+      <mat-card-header>
+        <mat-card-title class="title"> Register</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <form class="login-info">
+          <table class="login-full-width" cellspacing="20">
+            <tr>
+              <td>
+                <mat-form-field class="username-full-width">
+                  <input placeholder="User name" name="username" [(ngModel)]="model.username" matInput required />
+                </mat-form-field>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <mat-form-field class="password-full-width">
+                  <input type="password" placeholder="Password" name="password" [(ngModel)]="model.password" matInput required />
+                </mat-form-field>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <mat-form-field class="confirm-password-full-width">
+                  <input type="password" placeholder="Confirm Password" name="confirmPassword" [(ngModel)]="model.confpassword" matInput required />
+                </mat-form-field>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <mat-radio-group class="gender-full-width" [(ngModel)]="model.gender" name="gender" matInput required>
+                  <mat-radio-button value="male">Male</mat-radio-button>
+                  <mat-radio-button value="female">Female</mat-radio-button>
+                </mat-radio-group>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <mat-form-field class="city-full-width">
+                  <input type="text" placeholder="City" name="city" [(ngModel)]="model.city" matInput required />
+                </mat-form-field>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <mat-form-field class="bday-full-width">
+                  <input matInput [matDatepicker]="bdayPicker" placeholder="Birthdate">
+                  <mat-datepicker-toggle matSuffix [for]="bdayPicker"></mat-datepicker-toggle>
+                  <mat-datepicker #bdayPicker></mat-datepicker>
+                </mat-form-field>
+              </td>
+            </tr>
+          </table>
+        </form>
+          <div class="button-row">
+            <button type="submit" class="registerInput" id="registerSubmit" mat-raised-button color="primary">REGISTER</button>
+            <button type="reset" class="registerInput" id="reset" mat-raised-button color="basic">CLEAR</button>
+          </div>
+      </mat-card-content>
+    </form>
+  </mat-card>
+</div>
+<!--<form class="example-form">
+  <mat-form-field class="example-full-width">
+    <input matInput placeholder="Email" [formControl]="emailFormControl"
+           [errorStateMatcher]="matcher">
+    <mat-hint>Errors appear instantly!</mat-hint>
+    <mat-error *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
+      Please enter a valid email address
+    </mat-error>
+    <mat-error *ngIf="emailFormControl.hasError('required')">
+      Email is <strong>required</strong>
+    </mat-error>
+  </mat-form-field>
+</form>-->

@@ -1,0 +1,19 @@
+﻿@model System.DateTime
+@{
+    ViewData["Title"] = "Index";
+
+    DateTime now = DateTime.Now;
+    DateTime endOfYear = new DateTime(now.Year, 12, 31);
+    double daysLeft = Math.Ceiling((endOfYear - now).TotalDays);
+}
+
+<div class="jumbotron p-3 mb-2 text-white sticky-top">
+    <h2>@ViewData["TimePhrase"]</h2>
+</div>
+<main class="p-3">
+    <h2>It is now @now.ToString("hh:mm"):@now.ToString("tt") on @now.DayOfWeek, @now.ToString("MMMM") @now.Day, @now.Year (Timezone: @TimeZoneInfo.Local.ToString())</h2>
+    <h5>There are @daysLeft more days in @now.Year</h5>
+    <a class="btn btn-primary" role="button" href="~/Lab4/Waffles">Generate Waffles</a>
+   
+    
+</main>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAjQhM2kj1zECKekDTC6k1JAAAAAACAAAAAAAQZgAAAAEAACAAAAAF7O/5iUx7lPs1mSbEfno+LogTyhsowhVor3outbdj6gAAAAAOgAAAAAIAACAAAACDT1570MtpWyJo4iAtETAVdxzZw+OcP5cG2TYceGDw5IAAAABXYXKIbNBSEVze5t9g2x9XoynI5k5jL7Y2cByU5pmNLj/FKvHrj2HC4y6Ma8pLxYXl7jOqD9O2DqkCJJA1lvfqDkTEtry1qkHSBHSB8US6gwQwcta9bIdwAnc2UJISjzsT2bjdZ5B9OOaKJ8XsUSUdQCbY3ZAD9FJah+q6WmBhD0AAAABa6mN762MaKHwN6LSPZ9gUR24stvW4XzOU0BJI1MUAyF6pZl0/GuSf++A62EQaqUgGV420IAlqgc0YaPdMo8ll</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="Lab06Context">
+      <Value>Data Source=tcp:annerd-csis4135labsdatabase.database.windows.net,1433%3bInitial Catalog=MVCMovie-lab05db%3bUser Id=annerd%40annerd-csis4135labsdatabase%3bPassword=Usairborn.101</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

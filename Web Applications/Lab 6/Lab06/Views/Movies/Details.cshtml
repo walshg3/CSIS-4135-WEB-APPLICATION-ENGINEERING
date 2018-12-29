@@ -1,0 +1,73 @@
+﻿@model Lab06.Models.Movie
+@{
+    ViewData["Title"] = "Details";
+    List<Review> reviews = (List<Review>)ViewData["Reviews"];
+}
+<h2>Details</h2>
+<div>
+    <h4>Movie</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ReleaseDate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ReleaseDate)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Genre)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Genre)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Rating)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Rating)
+        </dd>
+    </dl>
+    <dl class="dl-horizontal">
+        <dd>
+            <img src="@Html.DisplayFor(model => model.PosterURL)" class="img-responsive" />
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.ID">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
+<h3 class="bold">Reviews</h3>
+<hr>
+
+@foreach (Review review in reviews)
+{
+    <div class="row">
+        <div class="col-sm-4">
+            <p>@review.UserReview</p>
+            <em>- @review.Reviewer</em>
+        </div>
+        <div class="col-sm-2">
+            <span class="btn-group" role="group">
+                <a class="btn btn-sm btn-outline-info btn btn-default" href="/Reviews/Edit/@review.ID" >Edit</a>
+                <a class="btn btn-sm btn-outline-info btn btn-default" href="/Reviews/Delete/@review.ID">Delete</a>
+            </span>
+        </div>
+    </div>
+}
+
+<div class="spaceabove">
+    <a class="btn btn-lg btn-info" href="/Reviews/Create/@Html.DisplayFor(model => model.ID)?movieTitle=@Html.DisplayFor(model => model.Title)"><span class="glyphicon glyphicon-pencil"></span> Write a Review</a>
+</div>

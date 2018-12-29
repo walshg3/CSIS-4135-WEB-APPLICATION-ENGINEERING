@@ -1,0 +1,102 @@
+C:/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/bin/Debug/netcoreapp2.1/Intro to MVC.deps.json
+C:/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/bin/Debug/netcoreapp2.1/Intro to MVC.runtimeconfig.json
+C:/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/bin/Debug/netcoreapp2.1/Intro to MVC.runtimeconfig.dev.json
+C:/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/bin/Debug/netcoreapp2.1/Intro to MVC.dll
+C:/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Intro to MVC.csprojAssemblyReference.cache
+C:/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Intro to MVC.csproj.CoreCompileInputs.cache
+C:/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Intro to MVC.RazorAssemblyInfo.cache
+C:/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Intro to MVC.RazorAssemblyInfo.cs
+C:/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Intro to MVC.AssemblyInfoInputs.cache
+C:/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Intro to MVC.AssemblyInfo.cs
+C:/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Intro to MVC.TagHelpers.input.cache
+C:/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Intro to MVC.TagHelpers.output.cache
+C:/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Intro to MVC.RazorCoreGenerate.cache
+C:/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Razor/Views/Home/About.g.cshtml.cs
+C:/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Razor/Views/Home/Contact.g.cshtml.cs
+C:/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Razor/Views/Home/Index.g.cshtml.cs
+C:/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Razor/Views/Home/Privacy.g.cshtml.cs
+C:/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Razor/Views/Shared/Error.g.cshtml.cs
+C:/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs
+C:/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_Layout.g.cshtml.cs
+C:/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs
+C:/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Razor/Views/_ViewImports.g.cshtml.cs
+C:/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Razor/Views/_ViewStart.g.cshtml.cs
+C:/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Intro to MVC.RazorTargetAssemblyInfo.cache
+C:/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Intro to MVC.RazorTargetAssemblyInfo.cs
+C:/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/bin/Debug/netcoreapp2.1/Intro to MVC.pdb
+C:/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/bin/Debug/netcoreapp2.1/Intro to MVC.Views.dll
+C:/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/bin/Debug/netcoreapp2.1/Intro to MVC.Views.pdb
+C:/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Intro to MVC.Views.pdb
+C:/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Intro to MVC.dll
+C:/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Intro to MVC.pdb
+C:/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Intro to MVC.csproj.CopyComplete
+C:/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Razor/Views/Lab4/Index.g.cshtml.cs
+C:/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Razor/Views/Lab4/Waffles.g.cshtml.cs
+C:/Users/walshg3/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/bin/Debug/netcoreapp2.1/Intro to MVC.deps.json
+C:/Users/walshg3/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/bin/Debug/netcoreapp2.1/Intro to MVC.runtimeconfig.json
+C:/Users/walshg3/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/bin/Debug/netcoreapp2.1/Intro to MVC.runtimeconfig.dev.json
+C:/Users/walshg3/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/bin/Debug/netcoreapp2.1/Intro to MVC.dll
+C:/Users/walshg3/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/bin/Debug/netcoreapp2.1/Intro to MVC.pdb
+C:/Users/walshg3/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/bin/Debug/netcoreapp2.1/Intro to MVC.Views.dll
+C:/Users/walshg3/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/bin/Debug/netcoreapp2.1/Intro to MVC.Views.pdb
+C:/Users/walshg3/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Intro to MVC.csprojAssemblyReference.cache
+C:/Users/walshg3/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Intro to MVC.csproj.CoreCompileInputs.cache
+C:/Users/walshg3/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Intro to MVC.RazorAssemblyInfo.cache
+C:/Users/walshg3/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Intro to MVC.RazorAssemblyInfo.cs
+C:/Users/walshg3/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Intro to MVC.AssemblyInfoInputs.cache
+C:/Users/walshg3/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Intro to MVC.AssemblyInfo.cs
+C:/Users/walshg3/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Intro to MVC.TagHelpers.input.cache
+C:/Users/walshg3/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Intro to MVC.TagHelpers.output.cache
+C:/Users/walshg3/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Intro to MVC.RazorCoreGenerate.cache
+C:/Users/walshg3/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Razor/Views/Home/About.g.cshtml.cs
+C:/Users/walshg3/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Razor/Views/Home/Contact.g.cshtml.cs
+C:/Users/walshg3/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Razor/Views/Home/Index.g.cshtml.cs
+C:/Users/walshg3/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Razor/Views/Home/Privacy.g.cshtml.cs
+C:/Users/walshg3/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Razor/Views/Lab4/Index.g.cshtml.cs
+C:/Users/walshg3/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Razor/Views/Lab4/Waffles.g.cshtml.cs
+C:/Users/walshg3/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Razor/Views/Shared/Error.g.cshtml.cs
+C:/Users/walshg3/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs
+C:/Users/walshg3/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_Layout.g.cshtml.cs
+C:/Users/walshg3/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs
+C:/Users/walshg3/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Razor/Views/_ViewImports.g.cshtml.cs
+C:/Users/walshg3/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Razor/Views/_ViewStart.g.cshtml.cs
+C:/Users/walshg3/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Intro to MVC.RazorTargetAssemblyInfo.cache
+C:/Users/walshg3/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Intro to MVC.RazorTargetAssemblyInfo.cs
+C:/Users/walshg3/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Intro to MVC.Views.pdb
+C:/Users/walshg3/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Intro to MVC.dll
+C:/Users/walshg3/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Intro to MVC.pdb
+C:/Users/walshg3/code/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Intro to MVC.csproj.CopyComplete
+/Users/gregwalsh/GitHub/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/bin/Debug/netcoreapp2.1/Intro to MVC.deps.json
+/Users/gregwalsh/GitHub/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/bin/Debug/netcoreapp2.1/Intro to MVC.runtimeconfig.json
+/Users/gregwalsh/GitHub/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/bin/Debug/netcoreapp2.1/Intro to MVC.runtimeconfig.dev.json
+/Users/gregwalsh/GitHub/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/bin/Debug/netcoreapp2.1/Intro to MVC.dll
+/Users/gregwalsh/GitHub/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/bin/Debug/netcoreapp2.1/Intro to MVC.pdb
+/Users/gregwalsh/GitHub/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/bin/Debug/netcoreapp2.1/Intro to MVC.Views.dll
+/Users/gregwalsh/GitHub/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/bin/Debug/netcoreapp2.1/Intro to MVC.Views.pdb
+/Users/gregwalsh/GitHub/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Intro to MVC.csprojAssemblyReference.cache
+/Users/gregwalsh/GitHub/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Intro to MVC.csproj.CoreCompileInputs.cache
+/Users/gregwalsh/GitHub/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Intro to MVC.RazorAssemblyInfo.cache
+/Users/gregwalsh/GitHub/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Intro to MVC.RazorAssemblyInfo.cs
+/Users/gregwalsh/GitHub/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Intro to MVC.AssemblyInfoInputs.cache
+/Users/gregwalsh/GitHub/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Intro to MVC.AssemblyInfo.cs
+/Users/gregwalsh/GitHub/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Intro to MVC.TagHelpers.input.cache
+/Users/gregwalsh/GitHub/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Intro to MVC.TagHelpers.output.cache
+/Users/gregwalsh/GitHub/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Intro to MVC.RazorCoreGenerate.cache
+/Users/gregwalsh/GitHub/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Razor/Views/Home/About.g.cshtml.cs
+/Users/gregwalsh/GitHub/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Razor/Views/Home/Contact.g.cshtml.cs
+/Users/gregwalsh/GitHub/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Razor/Views/Home/Index.g.cshtml.cs
+/Users/gregwalsh/GitHub/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Razor/Views/Home/Privacy.g.cshtml.cs
+/Users/gregwalsh/GitHub/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Razor/Views/Lab4/Index.g.cshtml.cs
+/Users/gregwalsh/GitHub/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Razor/Views/Lab4/Waffles.g.cshtml.cs
+/Users/gregwalsh/GitHub/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Razor/Views/Shared/Error.g.cshtml.cs
+/Users/gregwalsh/GitHub/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs
+/Users/gregwalsh/GitHub/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_Layout.g.cshtml.cs
+/Users/gregwalsh/GitHub/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs
+/Users/gregwalsh/GitHub/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Razor/Views/_ViewImports.g.cshtml.cs
+/Users/gregwalsh/GitHub/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Razor/Views/_ViewStart.g.cshtml.cs
+/Users/gregwalsh/GitHub/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Intro to MVC.RazorTargetAssemblyInfo.cache
+/Users/gregwalsh/GitHub/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Intro to MVC.RazorTargetAssemblyInfo.cs
+/Users/gregwalsh/GitHub/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Intro to MVC.Views.pdb
+/Users/gregwalsh/GitHub/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Intro to MVC.dll
+/Users/gregwalsh/GitHub/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Intro to MVC.pdb
+/Users/gregwalsh/GitHub/CSIS-Classes/Web Applications/Lab 4/Intro to MVC/Intro to MVC/obj/Debug/netcoreapp2.1/Intro to MVC.csproj.CopyComplete

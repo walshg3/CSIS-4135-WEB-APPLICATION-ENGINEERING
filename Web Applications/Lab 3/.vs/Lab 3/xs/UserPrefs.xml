@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{83FC37E4-18E3-481C-8EBA-45313BC726E0}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Lab 3/wwwroot/index.html">
+    <Files>
+      <File FileName="Lab 3/wwwroot/main.js" Line="1" Column="1" />
+      <File FileName="Lab 3/wwwroot/index.html" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Lab_2203 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

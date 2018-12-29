@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{75EFCFF1-D0A3-4DAF-9092-ED5EFB51564D}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Intro to MVC/wwwroot/css/site.css">
+    <Files>
+      <File FileName="Intro to MVC/Views/Lab4/Waffles.cshtml" Line="19" Column="1" />
+      <File FileName="Intro to MVC/Views/Lab4/Index.cshtml" Line="9" Column="1" />
+      <File FileName="Intro to MVC/wwwroot/css/site.css" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.IntroToMVC PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

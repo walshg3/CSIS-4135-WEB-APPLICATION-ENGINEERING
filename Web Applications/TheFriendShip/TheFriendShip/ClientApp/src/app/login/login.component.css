@@ -1,0 +1,15 @@
+.usrpwd {
+  font-size: 12px;
+  padding-right: 15px;
+}
+
+.ui-login-full-width {
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.mat-button, .mat-icon-button, .mat-stroked-button {
+  outline: thin;
+  outline-color: white;
+}

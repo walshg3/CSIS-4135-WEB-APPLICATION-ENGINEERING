@@ -1,0 +1,77 @@
+﻿@model Lab06.Models.MovieGenreViewModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Movie List</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-info">Create New</a>
+</p>
+
+<form asp-controller="Movies" asp-action="Index" method="get">
+    <div class="form-group col-md-3 remove-leftpad">
+        <select asp-for="MovieGenre" asp-items="Model.Genres" class="form-control">
+            <option value="">All</option>
+        </select>
+    </div>
+
+    <div class="form-inline col-md-4">
+        <label class="control-label">Title:</label>
+        <input type="text" class="form-control" name="SearchString" />
+    </div>
+    <button type="submit" class="btn btn-primary">Filter</button>
+</form>
+
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Movies[0].Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Movies[0].ReleaseDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Movies[0].Genre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Movies[0].Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Movies[0].Rating)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Movies)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReleaseDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Genre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rating)
+            </td>
+            <td>
+                <a class="btn btn-default" asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
+                <a class="btn btn-default" asp-action="Details" asp-route-id="@item.ID">Details</a> |
+                <a class="btn btn-default" asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
+
+

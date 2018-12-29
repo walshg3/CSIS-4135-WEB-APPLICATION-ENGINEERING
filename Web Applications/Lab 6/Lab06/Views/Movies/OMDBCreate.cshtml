@@ -1,0 +1,107 @@
+﻿@model Lab06.Models.Movie
+@{
+    ViewData["Title"] = "OMDB Create";
+
+    dynamic omdbMovie = ViewData["omdbMovie"];
+    var movieExists = ViewData["exists"];
+}
+
+<div>
+    @if (movieExists == "true")
+    {
+        <h2>'<span id="title"></span>' Already exists!</h2>
+    }
+</div>
+<h3>Add Movie</h3>
+<hr />
+<div class="imdb">
+    <form class="form-inline" method="get" action="/Movies/OMDBCreate">
+        <div class="form-group">
+            <input type="text" name="movieName" class="form-control col-sm-6" placeholder="Title">
+        </div>
+        <input type="submit" value="Lookup on IMDB" class="btn btn-info">
+    </form>
+</div>
+<form asp-action="OMDBCreate">
+    <div class="form-horizontal">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <input type="hidden" asp-for="ID" />
+        <div class="form-group">
+            <label asp-for="Title" class="col-md-2 control-label"></label>
+            <div class="col-md-3">
+                <input asp-for="Title" class="form-control" id="movieTitle" />
+                <span asp-validation-for="Title" class="text-danger" id="title_error"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="ReleaseDate" class="col-md-2 control-label"></label>
+            <div class="col-md-3">
+                <input asp-for="ReleaseDate" class="form-control" />
+                <span asp-validation-for="ReleaseDate" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Genre" class="col-md-2 control-label"></label>
+            <div class="col-md-3">
+                <input asp-for="Genre" class="form-control" />
+                <span asp-validation-for="Genre" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Price" class="col-md-2 control-label"></label>
+            <div class="col-md-3">
+                <input asp-for="Price" class="form-control" value="" />
+                <span asp-validation-for="Price" class="text-danger">PRICE REQUIRED</span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Rating" class="col-md-2 control-label"></label>
+            <div class="col-md-3">
+                <select asp-for="Rating" class="form-control" asp-items="@(new SelectList(Enum.GetValues(typeof(Ratings))))">
+                    <option disabled>Select Rating</option>
+                </select>
+                <span asp-validation-for="Rating" class="text-danger"></span>
+            </div>
+        </div>
+        <input type="hidden" asp-for="PosterURL" id="PosterURL" name="PosterURL" />
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+    </div>
+</form>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+<script type="text/javascript">
+        @if (ViewData["Rating"] == null) { ViewData["Rating"] = "none"; }
+        switch ("@ViewData["Rating"].ToString()") {
+        case "NC-17":
+            document.getElementById("Rating").options[1].selected = true;
+            break;
+        case "R":
+            document.getElementById("Rating").options[2].selected = true;
+            break;
+        case "PG-13":
+            document.getElementById("Rating").options[3].selected = true;
+            break;
+        case "PG":
+            document.getElementById("Rating").options[4].selected = true;
+            break;
+        case "G":
+            document.getElementById("Rating").options[5].selected = true;
+            break;
+            default:
+            document.getElementById("Rating").options[6].selected = true;
+            break;
+        }
+
+    try { document.getElementById('title').innerHTML = document.getElementById('movieTitle').value; } catch { }
+</script>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+} 
